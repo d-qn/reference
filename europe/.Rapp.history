@@ -1,0 +1,538 @@
+tail(tRecalc, 1)
+tRecalc <- tRecalc[1:(matchSmaller((Sys.time()-37*3600) + 2 * 3600, tRecalc) + 1)]
+tRecalc
+(Sys.time()-37*3600)
+(Sys.time()-50*3600)
+(Sys.time()-55*3600)
+(Sys.time()-50*3600)
+(Sys.time()-60*3600)
+(Sys.time()-65*3600)
+(Sys.time()-62*3600)
+tRecalc <- cxTrading::tradingSessions("ES", range(txn$t, (Sys.time()-62*3600) + 5 * 24 * 3600))[,1]
+tRecalc
+tRecalc[1:(matchSmaller((Sys.time()-62*3600) + 2 * 3600, tRecalc) + 1)]
+strategy <- 'bfc('ES',,,,,entry=0.6,stop=0.3,lb=3'
+strategy <- "bfc('ES',,,,,entry=0.6,stop=0.3,lb=3)"
+tRecalc
+tRecalc[1:(matchSmaller((Sys.time()-62*3600) + 2 * 3600, tRecalc) + 1)]
+tRecalc<- tRecalc[1:(matchSmaller((Sys.time()-62*3600) + 2 * 3600, tRecalc) + 1)]
+referenceRangeOfStrategy(tail(tRecalc, 1), strategy)
+referenceRangeOfStrategy(tail(tRecalc, 1), factor(strategy))
+referenceRangeOfStrategy(tRecalc[length(tRecalc)], factor(strategy))
+referenceRangeOfStrategy(tRecalc[length(tRecalc)-1], factor(strategy))
+referenceRangeOfStrategy(tRecalc[length(tRecalc)-5], factor(strategy))
+referenceRangeOfStrategy(tRecalc[length(tRecalc)-2], factor(strategy))
+referenceRangeOfStrategy(tRecalc[length(tRecalc)-10], factor(strategy))
+referenceRangeOfStrategy(tRecalc[length(tRecalc)-4], factor(strategy))
+referenceRangeOfStrategy(tRecalc[length(tRecalc)-5], factor(strategy))
+referenceRangeOfStrategy(tRecalc[length(tRecalc)-3], factor(strategy))
+referenceRangeOfStrategy(tRecalc[length(tRecalc)], factor(strategy))
+tRecalc
+referenceRangeOfStrategy(tRecalc[length(tRecalc)-1], factor(strategy))
+strategy <- factor(strategy)
+strategy
+t
+referenceRangeOfStrategy(tRecalc[length(tRecalc)-1], factor(strategy))
+tRecalc[length(tRecalc)-1]
+tRecalc[length(tRecalc)]
+tRecalc
+pmax(c(1:10), 9)
+tRecalc <- cxTrading::tradingSessions("ES", range(Sys.time() + 5 * 24 * 3600))[,1]
+tRecalc <- cxTrading::tradingSessions("ES", range(Sys.time() + 5 * 24 * 3600)[,1]
+cxTrading::tradingSessions("ES", range(Sys.time() + 5 * 24 * 3600)
+)
+system.file("selectionAllocation.R", mustWork = TRUE, package = "shortTermTrading")
+?system.file
+library(cxTrading)
+aggregateMacxRedMarketData()
+0.002 * 100
+library(cxTrading)
+install.packages("pxR")
+library(pxR)
+parti <- structure(#
+  c(0.48, 0.07, -0.75, 0.79, 0.48, 0.4, -0.72, 0.28, 0.6, -1.1, -0.7, -0.92, -1.12, -1.1), #
+  names = c('PLR', 'PDC', 'PS', 'UDC', 'PLS', 'PEV', 'PCS', 'PVL', 'PBD', 'PST', 'PES', 'UDF', 'Lega', 'MCR'))
+parti
+qplot(parti)
+library(ggplot2)
+qplot(parti)
+ggplot(data = parti)
+ggplot2(data = parti)
+ggplot(data = parti)
+ggplot(data = parti) + geom_point(parti)
+parti
+plot(parti)
+scale (parti)
+df <- data.frame(x = parti, y = 0.1, names = names(parti))
+qplot(df)
+ggplot(data = df) + geom_point(aes(x, y))
+?geom_test
+?geom_text
+ggplot(data = df) + geom_point(aes(x, y, label = names))
+ggplot(data = df) + geom_text(aes(x, y, label = names))
+ggplot(data = df) + geom_text(aes(x, y, label = names), angle = 90)
+ggplot(data = df) + geom_text(aes(x, y, label = names), angle = 90, alpha = 0.1)
+ggplot(data = df) + geom_text(aes(x, y, label = names), angle = 90, alpha = 0.8)
+theme_set(theme_bw(24))
+ggplot(data = df) + geom_text(aes(x, y, label = names), angle = 90, alpha = 0.8)
+?theme_set
+theme_set(theme_bw())
+ggplot(data = df) + geom_text(aes(x, y, label = names), angle = 90, alpha = 0.8)
+ggplot(data = df) + geom_text(aes(x, y, label = names), angle = 90, alpha = 0.8) + ylab("")
+?opts
+?t
+ggplot(data = df) + geom_text(aes(x, y, label = names), angle = 90, alpha = 0.8) + ylab("") + scale_y_discrete(breaks=NULL)
+library(ggplot2)#
+toLongNames <- structure(c('Parti liberal-radical', 'Parti démocrate chrétien', 'Parti socialiste', 'Union démocratique du centre', #
+  'Parti évengélique suisse', 'Parti chrétien social', 'Vert libéraux', 'Parti bourgeois-démocratique', 'Parti suisse du travail', #
+  'Les Verts', 'Union démocratique du centre', 'Lega dei Ticinesi', 'Mouvement citoyens romands'), names =#
+  c('PLR', 'PDC', 'PS', 'UDC', 'PEV', 'PCS', 'PVL', 'PBD', 'PST', 'PES', 'UDF', 'Lega', 'MCR'))#
+parti <- structure(#
+  c(0.48, 0.07, -0.75, 0.79, 0.4, -0.72, 0.28, 0.62, -1.1, -0.6, -0.92, 1.12, 1.1), #
+  names = c('PLR', 'PDC', 'PS', 'UDC', 'PEV', 'PCS', 'PVL', 'PBD', 'PST', 'PES', 'UDF', 'Lega', 'MCR'))#
+df <- data.frame(x = parti, y = 0.1, names = paste(toLongNames[names(parti)], " (", names(parti), ")", sep=""))#
+ggplot(data = df) + geom_text(aes(x, y, label = names), angle = 90, alpha = 0.8, hjust=0, vjust=0) + ylab("") + scale_y_discrete(breaks=NULL)
+install.packages(c("rgdal", "maptools"))
+install.packages("iWebPlots")
+library(iWebPlots)
+install.packages("geneplotter")
+install.packages("XML")
+install.packages("SVGAnnotation")
+install.packages("iWebPlots")
+library(iWebPlots)
+library(geneplotter)
+install.packages("geneplotter")
+install.packages("svgAnnotation")
+install.packages("SVGAnnotation")
+install.packages("gridSVG")
+library("gridSVG")
+library("ggplot2")
+qplot(disp, mpg, data=mtcars) + facet_wrap(~ cyl)
+grid.ls()
+grobs$name[grobs$type == "grobListing"]
+grobs <- grid.ls()
+names <- grobs$name[grobs$type == "grobListing"]
+names
+}grid.garnish(i,onmouseover=paste("showTooltip(evt, '", i, "')"),             onmouseout="hideTooltip()")for (i in unique(names)) {
+for (i in unique(names)) {
+grid.garnish(i,
+onmouseover=paste("showTooltip(evt, '", i, "')"),
+onmouseout="hideTooltip()")
+}
+grid.script(filename="tooltip.js")
+gridToSVG("qplotbrowser.svg")
+setwd('/Users/duc/CloudStation/dataJournalism/reference/europe')
+library(XML)#
+#
+# load and parse the svg file#
+doc <- xmlTreeParse("europe_mouseOverNames.svg")#
+r <- xmlRoot(doc)#
+#
+# load the csv file for mapping country names to their abreviation#
+countries <- read.csv("paysDuMonde.csv", header = F, sep = ",")#
+#
+mouseOver1a <- "onmousemove=\"ShowTooltip(evt," #
+mouseOver1b <- ")\""#
+mouseOver2 <- "onmouseout=\"HideTooltip()\""	#
+xmlSApply(r, function(rr) {#
+  if('id' %in% names(xmlAttrs(rr))) {#
+    country <- NA#
+    id <- toupper(xmlAttrs(rr)['id'])#
+    id2country <- match(id, countries[,1])#
+    if(!is.na(id2country)) {#
+      country <- countries[id2country,4]#
+      browser()#
+      xmlAttrs(rr) <- c(onmousemove = paste(mouseOver1, "'", country, "'", mouseOver1b, sep=""))#
+    }#
+  }#
+})
+country
+paste(mouseOver1, "'", country, "'", mouseOver1b, sep="")
+paste(mouseOver1a, "'", country, "'", mouseOver1b, sep=""))
+paste(mouseOver1a, "'", country, "'", mouseOver1b, sep="")
+c(onmousemove = paste(mouseOver1a, "'", country, "'", mouseOver1b, sep="")
+)
+c(onmousemove = paste(mouseOver1a, "'", country, "'", mouseOver1b, sep=""), onmouseout = mouseOver2)
+xmlAttrs(rr) <- c(onmousemove = paste(mouseOver1a, "'", country, "'", mouseOver1b, sep=""), onmouseout = mouseOver2)
+rr
+Q
+fileName <- system.file("exampleData", "mtcars.xml", package="XML") #
+ doc <- xmlTreeParse(fileName)#
+#
+ xmlAttrs(xmlRoot(doc))#
+#
+ xmlAttrs(xmlRoot(doc)[["variables"]])#
+ doc <- xmlParse(fileName)#
+ d = xmlRoot(doc)#
+#
+ xmlAttrs(d)#
+ xmlAttrs(d) <- c(name = "Motor Trend fuel consumption data",#
+                  author = "Motor Trends")#
+ xmlAttrs(d)
+d
+d
+d
+setwd('/Users/duc/CloudStation/dataJournalism/reference/europe')
+library(XML)#
+#
+# load and parse the svg file#
+doc <- xmlTreeParse("europe_mouseOverNames.svg")#
+r <- xmlRoot(doc)#
+#
+# load the csv file for mapping country names to their abreviation#
+countries <- read.csv("paysDuMonde.csv", header = F, sep = ",")#
+#
+mouseOver1a <- "onmousemove=\"ShowTooltip(evt," #
+mouseOver1b <- ")\""#
+mouseOver2 <- "onmouseout=\"HideTooltip()\""	#
+xmlSApply(r, function(rr) {#
+  if('id' %in% names(xmlAttrs(rr))) {#
+    country <- NA#
+    id <- toupper(xmlAttrs(rr)['id'])#
+    id2country <- match(id, countries[,1])#
+    if(!is.na(id2country)) {#
+      country <- countries[id2country,4]#
+      browser()#
+      xmlAttrs(rr) <- c(onmousemove = paste(mouseOver1a, "'", country, "'", mouseOver1b, sep=""), onmouseout = mouseOver2)#
+    }#
+  }#
+})
+rr
+xmlAttrs(rr)
+c(onmousemove = paste(mouseOver1a, "'", country, "'", mouseOver1b, sep=""), onmouseout = mouseOver2)
+tmp<- c(onmousemove = paste(mouseOver1a, "'", country, "'", mouseOver1b, sep=""), onmouseout = mouseOver2)
+str(tmp)
+setwd('/Users/duc/CloudStation/dataJournalism/reference/europe')
+mouseOver1a <- "\"ShowTooltip(evt," #
+mouseOver1b <- ")\""#
+mouseOver2 <- "\"HideTooltip()\""	#
+xmlSApply(r, function(rr) {#
+  if('id' %in% names(xmlAttrs(rr))) {#
+    country <- NA#
+    id <- toupper(xmlAttrs(rr)['id'])#
+    id2country <- match(id, countries[,1])#
+    if(!is.na(id2country)) {#
+      country <- countries[id2country,4]#
+      xmlAttrs(rr) <- c(onmousemove = paste(mouseOver1a, "'", country, "'", mouseOver1b, sep=""), onmouseout = mouseOver2)#
+      browser()#
+    }#
+  }#
+})
+Q
+setwd('/Users/duc/CloudStation/dataJournalism/reference/europe')
+mouseOver1a <- "\"ShowTooltip(evt," #
+mouseOver1b <- ")\""#
+mouseOver2 <- "\"HideTooltip()\""	#
+xmlSApply(r, function(rr) {#
+  if('id' %in% names(xmlAttrs(rr))) {#
+    country <- NA#
+    id <- toupper(xmlAttrs(rr)['id'])#
+    id2country <- match(id, countries[,1])#
+    if(!is.na(id2country)) {#
+      country <- countries[id2country,4]#
+      xmlAttrs(rr) <- c(onmousemove = paste(mouseOver1a, "'", country, "'", mouseOver1b, sep=""), onmouseout = mouseOver2)#
+      browser()#
+    }#
+  }#
+})
+rr
+Q
+setwd('/Users/duc/CloudStation/dataJournalism/reference/europe')
+mouseOver1a <- "ShowTooltip(evt," #
+mouseOver1b <- ")\""#
+mouseOver2 <- "HideTooltip()"#
+xmlSApply(r, function(rr) {#
+  if('id' %in% names(xmlAttrs(rr))) {#
+    country <- NA#
+    id <- toupper(xmlAttrs(rr)['id'])#
+    id2country <- match(id, countries[,1])#
+    if(!is.na(id2country)) {#
+      country <- countries[id2country,4]#
+      xmlAttrs(rr) <- c(onmousemove = paste(mouseOver1a, "'", country, "'", mouseOver1b, sep=""), onmouseout = mouseOver2)#
+      browser()#
+    }#
+  }#
+})
+rr
+Q
+mouseOver1a <- "ShowTooltip(evt," #
+mouseOver1b <- ")"#
+mouseOver2 <- "HideTooltip()"#
+xmlSApply(r, function(rr) {#
+  if('id' %in% names(xmlAttrs(rr))) {#
+    country <- NA#
+    id <- toupper(xmlAttrs(rr)['id'])#
+    id2country <- match(id, countries[,1])#
+    if(!is.na(id2country)) {#
+      country <- countries[id2country,4]#
+      xmlAttrs(rr) <- c(onmousemove = paste(mouseOver1a, "'", country, "'", mouseOver1b, sep=""), onmouseout = mouseOver2)#
+      browser()#
+    }#
+  }#
+})
+rr
+rr
+rr[[10]]
+r[[10]]
+Q
+xmlSApply(r, function(rr) {#
+  if('id' %in% names(xmlAttrs(rr))) {#
+    country <- NA#
+    id <- toupper(xmlAttrs(rr)['id'])#
+    id2country <- match(id, countries[,1])#
+    if(!is.na(id2country)) {#
+      country <- countries[id2country,4]#
+      xmlAttrs(rr) <- c(onmousemove = paste(mouseOver1a, "'", country, "'", mouseOver1b, sep=""), onmouseout = mouseOver2)#
+    }#
+  }#
+  rr#
+})
+xmlSApply(r, function(rr) {#
+  if('id' %in% names(xmlAttrs(rr))) {#
+    country <- NA#
+    id <- toupper(xmlAttrs(rr)['id'])#
+    id2country <- match(id, countries[,1])#
+    if(!is.na(id2country)) {#
+      country <- countries[id2country,4]#
+      xmlAttrs(rr) <- c(onmousemove = paste(mouseOver1a, "'", country, "'", mouseOver1b, sep=""), onmouseout = mouseOver2)#
+    }#
+  }#
+  rr#
+})
+out <- xmlSApply(r, function(rr) {#
+  if('id' %in% names(xmlAttrs(rr))) {#
+    country <- NA#
+    id <- toupper(xmlAttrs(rr)['id'])#
+    id2country <- match(id, countries[,1])#
+    if(!is.na(id2country)) {#
+      country <- countries[id2country,4]#
+      xmlAttrs(rr) <- c(onmousemove = paste(mouseOver1a, "'", country, "'", mouseOver1b, sep=""), onmouseout = mouseOver2)#
+    }#
+  }#
+  rr#
+})
+str(out)
+out
+print(rr)
+print(out)
+str(out)
+length(out)
+out[[12]]
+out[[13]]
+cat(out, file = "europe_mouseOverName.svg")
+?cat
+write(out, file = "europe_mouseOverName.svg")
+?write
+?prunt
+?print
+saveXML(out, file = "europe_mouseOverName.svg")
+str(out)
+sapply(out, print)
+setwd('/Users/duc/CloudStation/dataJournalism/reference/europe')
+library(XML)#
+#
+# load and parse the svg file#
+doc <- xmlTreeParse("europe_mouseOverNames.svg")#
+r <- xmlRoot(doc)#
+#
+# load the csv file for mapping country names to their abreviation#
+countries <- read.csv("countries.csv", header = T, sep = ",")#
+#
+mouseOver1a <- "ShowTooltip(evt," #
+mouseOver1b <- ")"#
+mouseOver2 <- "HideTooltip()"
+countries
+setwd('/Users/duc/CloudStation/dataJournalism/reference/europe')
+library(XML)#
+#
+# load and parse the svg file#
+doc <- xmlTreeParse("europe_mouseOverNames.svg")#
+r <- xmlRoot(doc)#
+#
+# load the csv file for mapping country names to their abreviation#
+countries <- read.csv("countries.csv", header = T, sep = ",", encoding = "UTF-8")#
+#
+mouseOver1a <- "ShowTooltip(evt," #
+mouseOver1b <- ")"#
+mouseOver2 <- "HideTooltip()"
+countries
+setwd('/Users/duc/CloudStation/dataJournalism/reference/europe')
+library(XML)#
+#
+# load and parse the svg file#
+doc <- xmlTreeParse("europe_mouseOverNames.svg")#
+r <- xmlRoot(doc)#
+#
+# load the csv file for mapping country names to their abreviation#
+countries <- read.csv("countries.csv", header = T, sep = ",", encoding = "UTF-8")#
+#
+mouseOver1a <- "ShowTooltip(evt," #
+mouseOver1b <- ")"#
+mouseOver2 <- "HideTooltip()"#
+out <- xmlSApply(r, function(rr) {#
+  if('id' %in% names(xmlAttrs(rr))) {#
+    country <- NA#
+    id <- toupper(xmlAttrs(rr)['id'])#
+    id2country <- match(id, countries[,1])#
+    if(!is.na(id2country)) {#
+      country <- countries[id2country,2]#
+      xmlAttrs(rr) <- c(onmousemove = paste(mouseOver1a, "'", country, "'", mouseOver1b, sep=""), onmouseout = mouseOver2)#
+    }#
+  }#
+  rr#
+})
+out
+print(out)
+si
+sink(file = "europe_mouseOverName.svg")#
+print(out)#
+sink()
+xmlRoot(out)
+xmlSchemaValidate(out)
+xmlSchemaValidate(out)leng
+length(r)
+i <- 12
+rr <- r[[i]]
+rr
+'id' %in% names(xmlAttrs(rr))
+country <- NA#
+    id <- toupper(xmlAttrs(rr)['id'])#
+    id2country <- match(id, countries[,1])
+library(XML)#
+#
+# load and parse the svg file#
+doc <- xmlTreeParse("europe_mouseOverNames.svg")#
+r <- xmlRoot(doc)#
+#
+# load the csv file for mapping country names to their abreviation#
+countries <- read.csv("countries.csv", header = T, sep = ",", encoding = "UTF-8")#
+#
+mouseOver1a <- "ShowTooltip(evt," #
+mouseOver1b <- ")"#
+mouseOver2 <- "HideTooltip()"#
+#
+for (i in length(r)) {#
+  rr <- r[[i]]#
+  if('id' %in% names(xmlAttrs(rr))) {#
+    country <- NA#
+    id <- toupper(xmlAttrs(rr)['id'])#
+    id2country <- match(id, countries[,1])#
+    if(!is.na(id2country)) {#
+      country <- countries[id2country, 2]#
+      xmlAttrs(r[[i]]) <- c(onmousemove = paste(mouseOver1a, "'", country, "'", mouseOver1b, sep=""), onmouseout = mouseOver2)#
+    }#
+  } #
+}
+r
+print(r)
+setwd('/Users/duc/CloudStation/dataJournalism/reference/europe')
+library(XML)#
+#
+# load and parse the svg file#
+doc <- xmlTreeParse("europe_mouseOverNames.svg")#
+r <- xmlRoot(doc)#
+#
+# load the csv file for mapping country names to their abreviation#
+countries <- read.csv("countries.csv", header = T, sep = ",", encoding = "UTF-8")#
+#
+mouseOver1a <- "ShowTooltip(evt," #
+mouseOver1b <- ")"#
+mouseOver2 <- "HideTooltip()"#
+#
+for (i in length(r)) {#
+  rr <- r[[i]]#
+  if('id' %in% names(xmlAttrs(rr))) {#
+    country <- NA#
+    id <- toupper(xmlAttrs(rr)['id'])#
+    id2country <- match(id, countries[,1])#
+    if(!is.na(id2country)) {#
+      country <- countries[id2country, 2]#
+      xmlAttrs(r[[i]]) <- c(onmousemove = paste(mouseOver1a, "'", country, "'", mouseOver1b, sep=""), onmouseout = mouseOver2)#
+    }#
+  } #
+}
+r
+setwd('/Users/duc/CloudStation/dataJournalism/reference/europe')
+library(XML)#
+#
+# load and parse the svg file#
+doc <- xmlTreeParse("europe_mouseOverNames.svg")#
+r <- xmlRoot(doc)#
+#
+# load the csv file for mapping country names to their abreviation#
+countries <- read.csv("countries.csv", header = T, sep = ",", encoding = "UTF-8")#
+#
+mouseOver1a <- "ShowTooltip(evt," #
+mouseOver1b <- ")"#
+mouseOver2 <- "HideTooltip()"#
+out <- xmlSApply(r, function(rr) {#
+  if('id' %in% names(xmlAttrs(rr))) {#
+    country <- NA#
+    id <- toupper(xmlAttrs(rr)['id'])#
+    id2country <- match(id, countries[,1])#
+    if(!is.na(id2country)) {#
+      country <- countries[id2country,2]#
+      xmlAttrs(rr) <- c(onmousemove = paste(mouseOver1a, "'", country, "'", mouseOver1b, sep=""), onmouseout = mouseOver2)#
+    }#
+  }#
+  rr#
+})
+out
+xmlNode(rr)
+xmlNode(r[[10]])
+xmlNode
+r[[10]]
+xmlNode(r[[10]])
+r
+rr<- r[[10]]
+rr
+append.XMLNode(rr, xmlNode("Norm"))
+?xmlTree
+head(r)
+?xpathApply
+setwd('/Users/duc/CloudStation/dataJournalism/reference/europe')
+x <- xmlParse("europe_mouseOverNames.svg")
+x
+setwd('/Users/duc/CloudStation/dataJournalism/reference/europe')
+xpathApply(x, function(xx) browser())
+xmlValue(xpathApply(x,"id")[[1]])
+xpathApply(x,"id")
+x
+xpathApply(x,"id")
+?xpathApply
+xpathApply(x,"//id")
+str(x)
+x
+xpathApply(x,"//path/id")
+xpathApply(x,"//path")
+setwd('/Users/duc/CloudStation/dataJournalism/reference/europe')
+x <- xmlParse("europe_mouseOverNames.svg")
+str(x)
+x
+xmlChildren(x)
+xmlNode(x)
+(xpathApply(r,"//path"
+xpathApply(r,"//path")
+xpathApply(r,"//id")
+r[[10]]
+xmlNode(r[[10]])
+xmlAttrs(r[[10]])
+head(r)
+r
+length(r)
+for(i in 1:length(r)) {#
+  if('id' %in% names(xmlAttrs(r[[i]]))) {#
+    country <- NA#
+    id <- toupper(xmlAttrs(r[[i]])['id'])#
+    id2country <- match(id, countries[, 1])#
+    if(!is.na(id2country)) {#
+      country <- countries[id2country, 2]#
+      xmlAttrs(r[[i]]) <- c(onmousemove = paste(mouseOver1a, "'", country, "'", mouseOver1b, sep=""), onmouseout = mouseOver2)#
+    }#
+  } #
+}
+r
+setwd('/Users/duc/CloudStation/dataJournalism/reference/europe')
+write(r, file = "europe_mouseOverName.svg")
+r
+print(r)

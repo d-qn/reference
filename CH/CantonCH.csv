@@ -1,0 +1,27 @@
+canton,canton_fr,ISO 3166-2,FIPS 10-4,NUTS-3
+  Aargau,Argovie,AG,SZ01,CH033
+  Appenzell Innerrhoden,Appenzell Rhodes-Extérieures,AI,SZ10,CH054
+  Appenzell Ausserrhoden,Appenzell Rhodes-Intérieures,AR,SZ02,CH053
+  Berne,Berne,BE,SZ05,CH021
+  Basel-Landschaft,Bâle-Campagne,BL,SZ03,CH032
+  Basel-Stadt,Bâle-Ville,BS,SZ04,CH031
+  Fribourg,Fribourg,FR,SZ06,CH022
+  Geneva,Genève,GE,SZ07,CH013
+  Glarus,Glaris,GL,SZ08,CH051
+  Grisons,Grisons,GR,SZ09,CH056
+  Jura,Jura,JU,SZ26,CH025
+  Lucerne,Lucerne,LU,SZ11,CH061
+  Neuchâtel,Neuchâtel,NE,SZ12,CH024
+  Nidwalden,Nidwald,NW,SZ13,CH065
+  Obwalden,Obwald,OW,SZ14,CH064
+  St. Gallen,Saint-Gall,SG,SZ15,CH055
+  Schaffhausen,Schaffhouse,SH,SZ16,CH052
+  Solothurn,Soleure,SO,SZ18,CH023
+  Schwyz,Schwytz,SZ,SZ17,CH063
+  Thurgau,Thurgovie,TG,SZ19,CH057
+  Ticino,Tessin,TI,SZ20,CH070
+  Uri,Uri,UR,SZ21,CH062
+  Vaud,Vaud,VD,SZ23,CH011
+  Valais,Valais,VS,SZ22,CH012
+  Zug,Zoug,ZG,SZ24,CH066
+  Zürich,Zurich,ZH,SZ25,CH040
